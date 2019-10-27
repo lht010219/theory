@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lht.dao.RoutineDao.RoutineDao">
+    <select id="routineTest1" resultType="Integer">
+        SELECT id FROM topic WHERE type=1;
+    </select>
+    <select id="routineTest2" resultType="Integer">
+        SELECT id FROM topic WHERE type=2;
+    </select>
+    <select id="routineTest3" resultType="Integer">
+        SELECT id FROM topic WHERE type=3;
+    </select>
+    <select id="routineList1" resultType="Topic">
+        SELECT * FROM topic WHERE type=1 and id=#{id};
+    </select>
+    <select id="routineList2" resultType="Topic">
+        SELECT * FROM topic WHERE type=2 and id=#{id};
+    </select>
+    <select id="routineList3" resultType="Topic">
+        SELECT * FROM topic WHERE type=3 and id=#{id};
+    </select>
+</mapper>
