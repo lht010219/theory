@@ -11,7 +11,7 @@
  Target Server Version : 80018
  File Encoding         : 65001
 
- Date: 02/11/2019 13:07:01
+ Date: 04/11/2019 09:01:18
 */
 
 SET NAMES utf8mb4;
@@ -32,7 +32,7 @@ CREATE TABLE `topic` (
   `answer` varchar(255) DEFAULT NULL,
   `imgurl` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2088 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2089 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of topic
@@ -925,6 +925,7 @@ INSERT INTO `topic` VALUES (2084, '　　下列二叉树中，适合于顺序存
 INSERT INTO `topic` VALUES (2085, '　　适合于元素个数很多的排序文法是（）。', 3, '堆', '归并', '折半插入', '快速', 'ABD', NULL);
 INSERT INTO `topic` VALUES (2086, '　　可以进行压缩存储的矩阵有（）矩阵。', 3, '对称', '对角', '邻接', '稀疏', 'C', NULL);
 INSERT INTO `topic` VALUES (2087, '　　下列概念中，与存储结构有关的是（）。', 3, '哈希表', '循环链表', '三叉链表', '十字链表', 'ABCD', NULL);
+INSERT INTO `topic` VALUES (2088, '以下关于UML的叙述，正确的是（）。', 3, 'UML是一种面向对象的标准化的统一建模语言', 'UML是一种图形化的语言', 'UML不能独立于系统开发过程', 'UML还可以处理与软件的说明和文档相关的问题，如需求说明等', 'ABD', NULL);
 COMMIT;
 
 -- ----------------------------

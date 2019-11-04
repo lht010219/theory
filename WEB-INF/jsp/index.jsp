@@ -30,7 +30,17 @@
     <div class="cc"></div>
 </nav>
 <div class="container">
-    <button class="btn btn-info" onclick="location.href='routine'">常规测试</button>
+    <button class="btn btn-info" onclick="location.href='routine'">常规测试</button><br><br>
+    <button class="btn btn-success" onclick="location.href='d1'">单选1~100</button>
+    <button class="btn btn-success" onclick="location.href='d2'">单选101~200</button>
+    <button class="btn btn-success" onclick="location.href='d3'">单选201~300</button>
+    <button class="btn btn-success" onclick="location.href='d4'">单选301~400</button>
+    <button class="btn btn-success" onclick="location.href='d5'">单选401~500</button>
+    <button class="btn btn-success" onclick="location.href='d6'">单选501~600</button><br><br>
+    <button class="btn btn-warning" onclick="location.href='p1'">判断1～100</button>
+    <button class="btn btn-warning" onclick="location.href='p2'">判断101~200</button><br><br>
+    <button class="btn btn-danger" onclick="location.href='s1'">多选题</button>
+
 </div>
 
 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lht.dao.TestDao.TestDao">
+    <select id="d1" resultType="Topic">
+        SELECT * FROM Topic WHERE type=1 limit 0,100
+    </select>
+    <select id="d2" resultType="Topic">
+        SELECT * FROM Topic WHERE type=1 limit 100,100
+    </select>
+    <select id="d3" resultType="Topic">
+        SELECT * FROM Topic WHERE type=1 limit 200,100
+    </select>
+    <select id="d4" resultType="Topic">
+        SELECT * FROM Topic WHERE type=1 limit 300,100
+    </select>
+    <select id="d5" resultType="Topic">
+        SELECT * FROM Topic WHERE type=1 limit 400,100
+    </select>
+    <select id="d6" resultType="Topic">
+        SELECT * FROM Topic WHERE type=1 limit 500,100
+    </select>
+    <select id="p1" resultType="Topic">
+        SELECT * FROM Topic WHERE type=2 limit 0,100
+    </select>
+    <select id="p2" resultType="Topic">
+        SELECT * FROM Topic WHERE type=2 limit 100,100
+    </select>
+    <select id="s1" resultType="Topic">
+        SELECT * FROM Topic WHERE type=3 limit 0,100
+    </select>
+</mapper>
